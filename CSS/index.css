@@ -13,7 +13,7 @@ background-color: #252323;
 height: 60px;
 width: 100%;
 }
- main {
+ main, .content {
 width: 980px;
 position: relative;
 }
@@ -81,4 +81,17 @@ border: 1px solid rgb(0, 0, 0);
 width: 100%;
 float: left;
 position: relative;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+button.slick-prev:before {
+    content: none;
+}
+button.slick-next:before {
+    content:none;
 }
