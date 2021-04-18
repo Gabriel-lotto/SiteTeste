@@ -2,85 +2,85 @@
     margin: 0 auto;
 }
 .body {
-height: 100%;
-width: 100%;
+    height: 100%;
+    width: 100%;
 }
  ul {
-padding: 0px!important;
+    padding: 0px!important;
 }
  .menu-principal {
-background-color: #252323;
-height: 60px;
-width: 100%;
+    background-color: #252323;
+    height: 60px;
+    width: 100%;
 }
- main, .content {
-width: 980px;
-position: relative;
+main, .content {
+    width: 980px;
+    position: relative;
 }
  .logo {
-padding: 15px;
-width: 60%;
-float: left;
+    padding: 15px;
+    width: 60%;
+    float: left;
 }
  .redes-sociais ul li {
-margin-left: 25px;
-display: inline-block;
-list-style: none;
-margin-top: 15px;
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 15px;
 }
  .redes-sociais {
-width: 25%;
-float: right;
+    width: 25%;
+    float: right;
 }
  .header-2 {
-width: 980px;
-background-color: #ffffff;
-padding: 16px;
+    width: 980px;
+    background-color: #ffffff;
+    padding: 16px;
 }
 .menu-urls {
-border-bottom: 3px solid #efefef;
-height: 70px;
+    border-bottom: 3px solid #efefef;
+    height: 70px;
 }
  .menu ul li {
-display: inline-block;
-color: #8b8b8b;
-margin-left: 15px;
-height: 50px;
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
 }
  .menu ul li a {
-color: #8b8b8b;
-text-decoration: none;
-font-size: 20px;
-text-transform: uppercase;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .menu {
-float: left;
-width:70%;
+    float: left;
+    width:70%;
 }
 .menu ul li:hover {
     border-bottom: 3px solid #00bac6
 }
 .menu ul li a:hover {
-color: #00bac6;
+    color: #00bac6;
 }
 .busca {
-text-align: center;
-width: 27%;
-float: right;
+    text-align: center;
+    width: 27%;
+    float: right;
 }
 .busca input {
-height: 25px;   
-width: 190px;
-padding-left: 15px;
-background-image: url('../images/icone-search.png');
-background-repeat: no-repeat;
-background-position: 96%;
-border: 1px solid rgb(0, 0, 0);
+    height: 25px;   
+    width: 190px;
+    padding-left: 15px;
+    background-image: url('../images/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 1px solid rgb(0, 0, 0);
 }
-.col-100 {
-width: 100%;
-float: left;
-position: relative;
+ .col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
 
 .slick-list {
@@ -94,4 +94,76 @@ button.slick-prev:before {
 }
 button.slick-next:before {
     content:none;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque p {
+    color: #9a9a9a;
+    font-size: 18px;
+    text-align: center;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque strong{
+    color: #646464;
+}
+.col-3 {
+    width:29%;
+    float: left;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.bloco-texto {
+    margin-top: 5em;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../images/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -20px;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
 }

@@ -2,11 +2,10 @@ $(document).ready(function(){
     $('.slider-principal').slick({
         dots: true,
         infinite: true,
-        speed: 1000,
+        speed: 800,
         slidesToShow: 1,
-        adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 4500
+        autoplaySpeed: 3500
       });
 });
 
