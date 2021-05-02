@@ -1,1 +1,1 @@
--Meu primeiro projeto com HTML/CSS/JS, uma página não responsiva com informações genéricas.
+-Meu primeiro projeto com HTML/CSS/JS, uma página responsiva com algumas informações genéricas.
